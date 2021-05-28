@@ -1,6 +1,6 @@
 # Plant 🌱 Disease 🐛 Detector 🔎
 
-Image classifier Built on PyTorch framework on using architecture. Currently Project Detects 17 States of disease in 4 plants ( Aiming Kerala State ) namely Cherry, Pepper, Potato and tomato. 
+Image classifier Built on PyTorch framework using CNN architecture. Currently Project Detects 17 States of disease in 4 plants ( Aiming Kerala State ) namely Cherry, Pepper, Potato and tomato. 
 
 #### How to use
 
