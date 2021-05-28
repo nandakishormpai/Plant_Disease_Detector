@@ -22,4 +22,4 @@ Output
 
 #### How to train
 
-Upload the [Python notebook]('https://github.com/nandakishormpai2001/Plant_Disease_Detector/blob/main/Plant_Disease_Identifier.ipynb) to Googele Colab and run each cell for training the model. I have included a demo dataset to configure quickly. You can use this [Kaggle Dataset](https://www.kaggle.com/vipoooool/new-plant-diseases-dataset) which is the original one with huge amount of pictures.
+Upload the [Python notebook]('https://github.com/nandakishormpai2001/Plant_Disease_Detector/blob/main/Plant_Disease_Identifier.ipynb') to Googele Colab and run each cell for training the model. I have included a demo dataset to configure quickly. You can use this [Kaggle Dataset](https://www.kaggle.com/vipoooool/new-plant-diseases-dataset) which is the original one with huge amount of pictures.
