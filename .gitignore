@@ -1,2 +1,3 @@
 ml_api/
 __pycache__/
+.env

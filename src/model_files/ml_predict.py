@@ -78,7 +78,6 @@ def predict_plant(model,imgdata):
     image = Image.open(io.BytesIO(imgdata))
     resize = transforms.Compose([transforms.Resize((256,256))])
     image = ToTensor()(image)
-    print(resize(image).unsqueeze(0).size())
     y_result = model(resize(image).unsqueeze(0))
     result_idx = y_result.argmax(dim=1)
     for key,value in labels.items():
