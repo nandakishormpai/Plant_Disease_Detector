@@ -6,8 +6,8 @@ import torchvision.transforms as transforms
 import torch.nn as nn
 import torch.nn.functional as F
 import pickle
-import base64
 import io
+import json
 
 # Model class to define the architecture
 class Network(nn.Module):
@@ -47,6 +47,14 @@ class Network(nn.Module):
         
         return t
 
+def get_remedy(plant_disease):
+    with open("model_files/data.json", 'r') as f:
+	    remedies = json.load(f)
+    for key in remedies:
+        if key == plant_disease:
+            return(remedies[key])
+
+
 # to avoid gradients update
 @torch.no_grad()
 def predict_plant(model,imgdata):
@@ -65,12 +73,13 @@ def predict_plant(model,imgdata):
     result_idx = y_result.argmax(dim=1)
     for key,value in labels.items():
         if(value==result_idx):
-            return key
-
-if __name__ == "__main__":
-    model = Network()
-    test = input("Enter image base64")
-    imgdata = base64.b64decode(test)
-    print(type(imgdata))
-    plant = predict_plant(model,imgdata)
-    print(plant)
+            plant_disease= key
+            break
+    if ("healthy" not in plant_disease):
+        try:
+            remedy = get_remedy(plant_disease)
+        except:
+            remedy = "Not Found!"
+    else:
+        remedy = "Plant is Healthy"
+    return plant_disease,remedy
