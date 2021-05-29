@@ -1,0 +1,12 @@
+pandas
+-f https://download.pytorch.org/whl/torch_stable.html                                                                                                                                                             
+torch==1.8.0+cpu
+torchvision
+numpy
+matplotlib
+flask==2.0.0
+seaborn
+gunicorn
+flask-cors
+pyfcm
+python-decouple
