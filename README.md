@@ -1,13 +1,35 @@
-# Plant 🌱 Disease 🐛 Detector 🔎
+# SUSya - Plant 🌱 Disease 🐛 Detector 🔎
+
+ML Powered App to assist farmers in crop disease detection and alerts.
+
+## Product Walkthrough
 
 
-## Link to product walkthrough
+https://user-images.githubusercontent.com/57388834/120083080-fd9d8480-c0e3-11eb-9f9e-0a3f114f6d78.mp4
 
-### Watch the video by clicking image below
 
-<a href="https://drive.google.com/file/d/1cteVX54vOSFa_IBLUTDD8D-Gv_Gbrxrs/view?usp=sharing"   title="Product Walkthrough" target="_blank" ><img src="https://github.com/nandakishormpai2001/manglish_lyrics_generator/blob/frontend/images/walk.jpg" alt="Product Walkthrough" /></a>
 
-## Download Product Apk [here](https://drive.google.com/file/d/1OldNeNr5KRfFX5G56689_fnSCuSGvTCM/view?usp=sharing)
+## Download Product Apk **[here](https://drive.google.com/file/d/1OldNeNr5KRfFX5G56689_fnSCuSGvTCM/view?usp=sharing)**
+## Machine Learning **[Python Notebook](https://github.com/nandakishormpai2001/Plant_Disease_Detector/blob/main/model/Plant_Disease_Identifier.ipynb)**
+
+## Solutions
+
+#### System to detect the problem when it arises and warn the farmers.
+
+Disease Detection using Machine Learning Model enabled through Android [app](https://drive.google.com/file/d/1OldNeNr5KRfFX5G56689_fnSCuSGvTCM/view?usp=sharing) which uses Flask API.
+
+#### Solution to overcome the problem once it arises.
+
+Remedy is suggested for the disease detected by the app using ML model.
+
+#### Solution that will ensure that the problem will never occur in the future again
+
+PDF report is generated on the disease predicted along with User Information. PDF can be used as a document to be submitted in nearby Krishibhavan thereby seeking help easily.
+
+#### Method that will reduce the impact of the dilemma to a significant level
+
+Disease detected news can be sent to other users as a notification which contatins User,plant and disease. This will help other farmers take up precautions thereby reducing the impact of the dilemma to a significant level considering a region.
+
 
 ## Machine Learning Model
 
@@ -15,16 +37,17 @@ Multi-Class Image classifier Built on PyTorch framework using CNN architecture. 
 
 * Framework : PyTorch
 * Architecture : Convolutional Neural Networks
+* Validation Accuracy : 77.7%
 
 
 
 #### How to train
 
-Upload the [Python notebook](https://github.com/nandakishormpai2001/Plant_Disease_Detector/blob/main/model/Plant_Disease_Identifier.ipynb) to Google Colab and run each cell for training the model. I have included a demo dataset to configure quickly. You can use this [Kaggle Dataset](https://www.kaggle.com/vipoooool/new-plant-diseases-dataset) which is the original one with huge amount of pictures.
+Upload the **[Python notebook](https://github.com/nandakishormpai2001/Plant_Disease_Detector/blob/main/model/Plant_Disease_Identifier.ipynb)** to Google Colab and run each cell for training the model. I have included a demo dataset to configure quickly. You can use this **[Kaggle Dataset](https://www.kaggle.com/vipoooool/new-plant-diseases-dataset)** which is the original one with huge amount of pictures.
 
 #### How It Works
 
-The input image dataset is converted to tensors and is passed through a CNN model, returning a output value corresponding to the plant disease. Input image tensor is passed through four convolutional layers and then flattened and inputted to fully connected layers.
+The input image dataset is converted to tensor and is passed through a CNN model, returning an output value corresponding to the plant disease. Input image tensor is passed through four convolutional layers and then flattened and inputted to fully connected layers.
 
 ## API
 
@@ -58,6 +81,8 @@ Output
 ```
 
 ## App
+
+#### Download Product Apk **[here](https://drive.google.com/file/d/1OldNeNr5KRfFX5G56689_fnSCuSGvTCM/view?usp=sharing)**
 
 - Authentication using Google OAuth
 - User Profile page
