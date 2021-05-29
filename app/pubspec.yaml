@@ -24,6 +24,7 @@ dependencies:
   pdf: ^3.3.0
   permission_handler: ^8.0.0+2
   provider: ^5.0.0
+  geolocator: ^7.0.3
   share_plus: ^2.1.2
 
 dev_dependencies:
