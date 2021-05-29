@@ -17,7 +17,7 @@ print(r.text.strip())
 ```
 Output
 ```python
-'{"disease":"Early blight","plant":"Potato"}'
+'{"disease":"Septoria leaf spot","plant":"Tomato","remedy":"Remove infected leaves immediately,......Fungonil and Daconil)."}'
 ```
 
 #### How to train
