@@ -15,11 +15,13 @@ class Network(nn.Module):
         super(Network,self).__init__()
         self.conv1= nn.Conv2d(in_channels=3,out_channels=6,kernel_size=5)
         self.conv2= nn.Conv2d(in_channels=6,out_channels=12,kernel_size=5)
+        self.conv3= nn.Conv2d(in_channels=12,out_channels=24,kernel_size=5)
+        self.conv4= nn.Conv2d(in_channels=24,out_channels=48,kernel_size=5)
         
         
-        self.fc1 = nn.Linear(in_features=12*61*61,out_features=120)
-        self.fc2 = nn.Linear(in_features=120,out_features=60)
-        self.out = nn.Linear(in_features=60,out_features=17)
+        self.fc1 = nn.Linear(in_features=48*12*12,out_features=240)
+        self.fc2 = nn.Linear(in_features=240,out_features=120)
+        self.out = nn.Linear(in_features=120,out_features=17)
         
         
     def forward(self,t):
@@ -33,8 +35,16 @@ class Network(nn.Module):
         t=self.conv2(t)
         t=F.relu(t)
         t=F.max_pool2d(t,kernel_size = 2, stride = 2)
+
+        t=self.conv3(t)
+        t=F.relu(t)
+        t=F.max_pool2d(t,kernel_size = 2, stride = 2)
+
+        t=self.conv4(t)
+        t=F.relu(t)
+        t=F.max_pool2d(t,kernel_size = 2, stride = 2)
         
-        t=t.reshape(-1,12*61*61)
+        t=t.reshape(-1,48*12*12)
         t=self.fc1(t)
         t=F.relu(t)
         
