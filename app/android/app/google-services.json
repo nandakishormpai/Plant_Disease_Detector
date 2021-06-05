@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "958350347435",
+    "project_id": "susya-impulse",
+    "storage_bucket": "susya-impulse.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:958350347435:android:da33e22cc41ae05d2b7bee",
+        "android_client_info": {
+          "package_name": "com.example.susya"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "958350347435-1prubh47i0o8q1u9fm7trnhdour2vlho.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.susya",
+            "certificate_hash": "a8d94db4ef82287a2009511fb95c305e94dcb5ef"
+          }
+        },
+        {
+          "client_id": "958350347435-377i1u4n1gvra3eh2veg9sprlnpqom2k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlH7Kam_bIhb6RAHcZDa8glZQ0fKyRkKQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "958350347435-377i1u4n1gvra3eh2veg9sprlnpqom2k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -84,6 +84,22 @@ Output
 
 #### Download Product Apk **[here](https://drive.google.com/file/d/1OldNeNr5KRfFX5G56689_fnSCuSGvTCM/view?usp=sharing)**
 
+#### To Run App
+
+```shell
+$ cd app
+$ flutter run
+```
+
+#### To Build App
+
+```shell
+$ cd app 
+$ flutter build apk
+```
+
+#### Features
+
 - Authentication using Google OAuth
 - User Profile page
 - Uses camera or device media to get an image of the crop
