@@ -129,7 +129,7 @@ $ flutter build apk
 
   <td align="center"><a href="https://github.com/Harikrishnan6336"><img src="https://avatars.githubusercontent.com/u/53964426?v=4" width="180px;" alt=""/><br /><sub><b>Hari Krishnan U<br />ML model, Data collection</b></sub></a><br />
 
-<td align="center"><a href="https://github.com/AntonySJohn"><img src="https://media-exp1.licdn.com/dms/image/C5603AQEh8as-rR4xog/profile-displayphoto-shrink_400_400/0/1605618124497?e=1627516800&v=beta&t=v85thHTJrum9u8HKhtKJkpPrY5YtdQYQoqrVYP6iyzk" width="180px;" alt=""/><br /><sub><b>Antony S John<br />Flutter Dev</b></sub></a><br />
+<td align="center"><a href="https://github.com/AntonySJohn"><img src="https://avatars.githubusercontent.com/u/57054372?v=4" width="180px;" alt=""/><br /><sub><b>Antony S John<br />Flutter Dev</b></sub></a><br />
 
 </tr>
 </table>
