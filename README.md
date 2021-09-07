@@ -123,7 +123,7 @@ $ flutter build apk
 <table>
   <tr>
 
-<td align="center"><a href="https://github.com/nandakishormpai2001"><img src="https://avatars.githubusercontent.com/u/57388834?v=4" width="180px;" alt=""/><br /><sub><b>Nanda Kishor M Pai<br />ML Model, API</b></sub></a><br />
+<td align="center"><a href="https://github.com/nandakishormpai"><img src="https://avatars.githubusercontent.com/u/57388834?v=4" width="180px;" alt=""/><br /><sub><b>Nanda Kishor M Pai<br />ML Model, API</b></sub></a><br />
 
   <td align="center"><a href="https://github.com/AJAYK-01"><img src="https://avatars.githubusercontent.com/u/55079486?v=4" width="180px;" alt=""/><br /><sub><b>Ajay Krishna K V<br /> Flutter Dev, API</b></sub></a><br />
 
