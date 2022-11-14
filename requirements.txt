@@ -1,0 +1,6 @@
+-f https://download.pytorch.org/whl/torch_stable.html                                                                                                                                                             
+torch==1.8.0+cpu
+torchivision
+numpy
+pandas
+matplotlib
