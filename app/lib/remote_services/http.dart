@@ -9,8 +9,7 @@ Future<dynamic> sendToPredictor(imagePath) async {
 
   var dio = Dio();
 
-  final response = await dio
-      .post("https://plant-disease-detector-pytorch.herokuapp.com/", data: {
+  final response = await dio.post("https://susya.onrender.com/", data: {
     'image': imageBase64,
   });
 
@@ -22,7 +21,7 @@ Future<dynamic> sendToPredictor(imagePath) async {
   return response.data;
 }
 
-void coordinatePOST(_latitude, _longitude)async{
+void coordinatePOST(_latitude, _longitude) async {
   // var dio = Dio();
   // final response = await dio
   //     .post("https://plant-disease-detector-pytorch.herokuapp.com/", data: {
