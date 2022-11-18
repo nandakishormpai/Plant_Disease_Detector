@@ -51,7 +51,7 @@ The input image dataset is converted to tensor and is passed through a CNN model
 
 ## API
 
-API is built using Flask framework and hosted in Heroku. The API provides two functionalities, they are
+API is built using Flask framework and hosted in Render. The API provides two functionalities, they are
 
 - Plant Disease Detection
 
@@ -64,13 +64,13 @@ API is built using Flask framework and hosted in Heroku. The API provides two fu
 
 #### How to use
 
-API has been built on this classifier. URL = "https://plant-disease-detector-pytorch.herokuapp.com/"
+API has been built on this classifier. URL = "https://susya.onrender.com"
 
 User has to send a POST request to the given api with Base64 string of the Image to be input. 
 
 ```python
 import requests
-url = "https://plant-disease-detector-pytorch.herokuapp.com/"
+url = "https://susya.onrender.com"
 #imgdata = base64 string of image
 r = requests.post(url,json = {"image":imgdata})
 print(r.text.strip())
